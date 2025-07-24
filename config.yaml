@@ -1,0 +1,17 @@
+data_dir: ./data
+transaction_file: ./data/transactions.csv
+user_file: ./data/users.csv
+merchant_file: ./data/merchants.csv
+processor_file: ./data/processor_metrics.csv
+model_dir: ./models
+lstm_model_file: ./models/lstm_model.h5
+transformer_model_file: ./models/transformer_model.h5
+xgb_model_file: ./models/xgb_model.pkl
+ensemble_model_file: ./models/ensemble_model.pkl
+preprocessor_file: ./models/preprocessor.pkl
+sequence_length: 15
+batch_size: 256
+epochs: 150
+learning_rate: 0.0003
+cache_ttl: 7200
+rate_limit: 100
